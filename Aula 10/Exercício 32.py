@@ -9,7 +9,7 @@ sleep(1)
 print('Processando...')
 sleep(1)
 if ano == 0:
-    ano = date.today().year
+    ano = date.today().year # Funçaõ que pega o ano atual da máquina. 
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
     print('O ano {} é BISSEXTO.'.format(ano))
 else:

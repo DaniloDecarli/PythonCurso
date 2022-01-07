@@ -2,11 +2,11 @@
 from time import sleep
 print('Esse ano teremos reajuste Salárial!')
 sleep(3)
-salario = str(input('Digite seu Salário atual: R$ '))
+salario = float(input('Digite seu Salário atual: R$ '))
 sleep(1)
 print('Processando....')
 sleep(2)
-if salario >= str(1250):
+if salario >= 1250:
     print('Com base no seu salário de R${:.2f}, você terá um aumento de 10%, agora seu salário será R$:{:.2f} '.format(salario, salario + (salario * 10 / 100)))
 else:
     print('Com base no seu salário de R${:.2f}, você terá um aumento de 15%, agora seu salário será R$:{:.2f} '.format(salario, salario + (salario * 15 / 100)))
