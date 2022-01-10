@@ -12,5 +12,5 @@ sleep(3)
 if jogador == computador:
     print('PARABÉNS! Você conseguiu me vencer!')
 else:
-    print('GANHEI! Eu pensei no número {} e não no {}!'.format(computador, jogador))
+    print('GANHEI! Eu pensei no número \033[31m{}\033[m e não no \033[33m{}\033[m!'.format(computador, jogador))
 print('-=-' * 20 ,'FIM', '-=-' *20)    

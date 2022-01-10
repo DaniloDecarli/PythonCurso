@@ -1,0 +1,28 @@
+-=--=--=-=-=-=-Cores em python-=--=--=--=--=--=--=-
+
+ANSI(escape sequence): É um padrão de normalização internacional que funciona em vários ambientes, nesse caso iremos usar no terminal.
+
+O melhor código ansi para pyhton é : \033[m : entre o colchete e m coloco as funções que quero.
+A primeira é o estilo(fonte); texto(cor do texto) ; backgraund(cor de fundo).
+ex:    style Back
+        |    |
+   \033[0;33;44m 
+          |
+          texto
+
+Estilo:
+0 -> não coloca estilo nenhum padrão comum
+1 -> coloca negrito
+4 -> coloca sublinhado ____underline
+7 -> inverte a cor de fundo vai para letra e cor de letra para fundo
+
+Texto:
+30:branco/ 31:vermelho/ 32:verde/ 33:amarelo/ 34:azul/ 35:magenta(roxo)/ 36:ciano(verdeagua)/ 37:cinza(corpadrãodoterminal)/
+
+Back:
+40:branco/ 41:vermelho/ 42:verde/ 43:amarelo/ 44:azul/ 45:magenta(roxo)/ 46:ciano(verdeagua)/ 47:cinza(corpadrãodoterminal)/
+
+
+
+
+

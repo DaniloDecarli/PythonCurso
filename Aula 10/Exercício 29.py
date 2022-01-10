@@ -8,4 +8,4 @@ sleep(3)
 if velocidade <= 79:
     print('Boa viagem! não ultrapasse o limite da rodovia...')
 else:
-    print('Você foi multado em R${:.2F} por estar acima da velocidade permitida'.format(multa))
+    print('Você foi multado em R$\033[31m{:.2F}\033[m por estar acima da velocidade permitida'.format(multa))
