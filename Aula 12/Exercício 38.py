@@ -9,4 +9,4 @@ if n1 > n2:
 elif n1 < n2:
     print('O número \033[32m{}\033[m é maior!'.format(n2))
 else:
-    print('São iguais os numeros \033[32m{}\033[m!'.format(n1))    
+    print('São iguais os numeros \033[32m{}\033[m!'.format(n1))
