@@ -4,11 +4,17 @@
 # ESCALENO: todos os lados diferentes
 
 from time import sleep
+print('-*-' * 20, 'FORMANDO TRIÂNGULOS', '-*-' * 20)
+sleep(1)
 l1 = int(input('Informe um numero inteiro do lado A,B: '))
 l2 = int(input('Informe um numero inteiro do lado B,C: '))
 l3 = int(input('Informe um numero inteiro do lado C,A: '))
+sleep(1)
+print('Processando...')
+sleep(1)
 if l1 < l2 + l3 and l2 < l1 + l3 and l3 < l1 + l2:
     print('As medidas {},{} e {} formam um triângulo!'.format(l1, l2, l3))
+    sleep(1)
     if l1 == l2 == l3:
         print('EQUILÁTERO')
     elif l1 != l2 != l3 != l1:
