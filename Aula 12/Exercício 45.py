@@ -26,7 +26,7 @@ if computador == 0: # computador jogou PEDRA
    elif jogador == 1:
        print('JOGADOR GANHOU!')
    elif jogador == 2:
-       print('COMPUTADO GANHOU!')
+       print('COMPUTADOR GANHOU!')
    else :
        print('OPÇÃO INVÁLIDA!!!')        
 elif computador == 1: # computador jogou PAPEL
