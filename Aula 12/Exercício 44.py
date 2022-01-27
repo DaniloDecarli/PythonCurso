@@ -18,5 +18,7 @@ elif opcao == 2:
     print('O valor de R$ {:.2f}, a vista no cartão tem 5% de desconto e sai por R$ {:.2f}'.format(produt, (produt - (produt * 5/100))))
 elif opcao == 3:
     print('O valor de R$ {:.2f}, a prazo em 2x no cartão sai pelo preço normal, com parcela no valor de R$ {:.2f}'.format(produt, (produt / 2)))
-else:
+elif opcao == 4:
      print('O valor de R$ {:.2f}, a prazo em 3x ou mais  no cartão sai com 20% de juro no valor de R$ {:.2f}'.format(produt, (produt + (produt * 20/100))))
+else:
+    print('Opção inválida! tente novamente...')     
