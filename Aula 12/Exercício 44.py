@@ -4,6 +4,7 @@
 # em até 2x no cartão: preço formal 
 # 3x ou mais no cartão: 20% de juros
 
+from time import sleep
 produt = float(input('Digite o preço do produto desejado: R$ '))
 print('Você escolheu um produto no valor de R$ {}'.format(produt))
 print('''Escolha a forma de Pagamento:
@@ -12,6 +13,9 @@ print('''Escolha a forma de Pagamento:
 [3] Á prazo 2x no cartão
 [4] Á prazo 3x ou mais no cartão ''')
 opcao = int(input('Qual a forma de pagamento?: '))
+sleep(1)
+print('Processando....')
+sleep(1)
 if opcao == 1:
     print('O valor de R$ {:.2f}, a vista com 10% de desconto sai por R$ {:.2f} '.format(produt, (produt - (produt * 10/100))))
 elif opcao == 2:
