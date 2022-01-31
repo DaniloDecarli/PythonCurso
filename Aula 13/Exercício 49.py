@@ -4,5 +4,5 @@
 num = int(input('Digite um numero para ver sua tabuada : '))
 print('=' * 15)
 for c in range(1, 11):
-    print('{} x {} = {}'.format(c, num, c * num))
+    print('{} x {} = {}'.format(num, c, c * num))
 print('=' * 15)
