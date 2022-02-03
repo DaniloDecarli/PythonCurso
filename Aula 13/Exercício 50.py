@@ -3,7 +3,7 @@
 
 
 from time import sleep
-print('Digite sei numeros inteiros.')
+print('Digite seis numeros inteiros.')
 sleep(0.5)
 soma = 0
 cont = 0
