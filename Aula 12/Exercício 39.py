@@ -1,4 +1,4 @@
-# Programa que leia a idade e diga o tempo de alistamento militar
+  # Programa que leia a idade e diga o tempo de alistamento militar
 
 from time import sleep
 from datetime import date
